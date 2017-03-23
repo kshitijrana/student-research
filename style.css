@@ -1,0 +1,150 @@
+/*@import url(font-awesome.min.css);*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+html{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#header{
+	height:7%;
+	width: 100%;
+	background-color: rgb(46,56,66);
+}
+
+/*#img_body{
+	background: url('ideas_research.png');
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+#main_body{
+	height:93%;
+	width: 100%;
+	background-color: rgb(255,206,172);
+	margin:0;
+	padding: 0;
+}
+
+#header h1 a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+	color: #fff;
+/*	font-weight: 800;*/
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#header #heading{
+	padding-left: 1em;
+	padding-top: 1%;
+}
+
+#gear1{
+	margin-left:504px;
+	margin-top:116.5px;
+	position: absolute;
+	-webkit-animation: rot_gear 5s linear infinite;  /*Chrome, Safari, Opera*/ 
+	animation: rot_gear 5s linear infinite;
+}
+
+#small_gear{
+	margin-left:533px;
+	margin-top:183px;
+	position: absolute;
+	-webkit-animation: rot_gear_rev 5s linear infinite;  /*Chrome, Safari, Opera*/ 
+	animation: rot_gear_rev 5s linear infinite;
+}
+
+#gear1_2{
+	margin-left:580px;
+	margin-top:183px;
+	position: absolute;
+	-webkit-animation: rot_gear 5s linear infinite;  /*Chrome, Safari, Opera*/ 
+	animation: rot_gear 5s linear infinite;
+}
+
+@-webkit-keyframes rot_gear{
+	0%{
+		-webkit-transform:rotate(0deg);
+	}
+
+	100%{
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rot_gear_rev{
+	0%{
+		-webkit-transform:rotate(0deg);
+	}
+
+	100%{
+		-webkit-transform:rotate(-360deg);
+	}
+}
+
+
+#paper{
+	position: absolute;
+	margin-left: 19.5%;
+	margin-top: 9%;
+	/*border: 1px solid transparent;
+	border-color: */
+}
+
+#comp{
+	position: absolute;
+	margin-left: 42%;
+	margin-top: 3%;
+}
+
+#search_button{
+	position: absolute;
+	margin-top: 37%;
+	margin-left: 43%;
+	width: 15%;
+	border: 0;
+	height: 5%;
+	font-size: 0.8em;
+	background-color: rgb(249,141,0);
+	color: #ffffff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	display: block;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+/*#page-wrapper {
+		-moz-transition: opacity 0.5s ease;
+		-webkit-transition: opacity 0.5s ease;
+		-ms-transition: opacity 0.5s ease;
+		transition: opacity 0.5s ease;
+		opacity: 1;
+		padding-top: 3em;
+}*/
+
+
+
